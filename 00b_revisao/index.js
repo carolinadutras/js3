@@ -21,7 +21,9 @@ btn.addEventListener('click', function () {
         const g = geraInteiro();
         const b = geraInteiro();
     
-    body.style.backgroundColor = 'rgb('+r+','+g+','+ b +')'   
+    // body.style.backgroundColor = 'rgb('+r+','+g+','+ b +')' 
+    body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
+
 })
 
 function geraInteiro() {
